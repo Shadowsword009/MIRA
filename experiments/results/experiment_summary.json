@@ -1,0 +1,94 @@
+{
+    "EXP-001": {
+        "experiment_id": "EXP-001",
+        "name": "Healthy Baseline",
+        "run_id": "e0b4485fcaee4b5b94e4fd7defb3850a",
+        "training_records": 9000,
+        "testing_records": 3000,
+        "metrics": {
+            "accuracy": 0.9656666666666667,
+            "precision": 0.9644381223328592,
+            "recall": 0.8968253968253969,
+            "f1_score": 0.9294037011651817
+        },
+        "confusion_matrix": [
+            [
+                2219,
+                25
+            ],
+            [
+                78,
+                678
+            ]
+        ]
+    },
+    "EXP-002": {
+        "experiment_id": "EXP-002",
+        "name": "Class Imbalance",
+        "run_id": "bb1bcb8c672749bea72cde3bbb5a1491",
+        "training_records": 6731,
+        "testing_records": 3000,
+        "metrics": {
+            "accuracy": 0.748,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0
+        },
+        "confusion_matrix": [
+            [
+                2244,
+                0
+            ],
+            [
+                756,
+                0
+            ]
+        ]
+    },
+    "EXP-003": {
+        "experiment_id": "EXP-003",
+        "name": "Feature Distribution Shift",
+        "run_id": "4479c98ea3454c16a274d74ee100ee5e",
+        "training_records": 9000,
+        "testing_records": 3000,
+        "metrics": {
+            "accuracy": 0.9556666666666667,
+            "precision": 0.9284731774415406,
+            "recall": 0.8928571428571429,
+            "f1_score": 0.9103169251517195
+        },
+        "confusion_matrix": [
+            [
+                2192,
+                52
+            ],
+            [
+                81,
+                675
+            ]
+        ]
+    },
+    "EXP-004": {
+        "experiment_id": "EXP-004",
+        "name": "Limited Training Data",
+        "run_id": "7c37d47202f249f983cb51f6cf8abdd3",
+        "training_records": 720,
+        "testing_records": 3000,
+        "metrics": {
+            "accuracy": 0.919,
+            "precision": 0.9605026929982047,
+            "recall": 0.7076719576719577,
+            "f1_score": 0.814927646610815
+        },
+        "confusion_matrix": [
+            [
+                2222,
+                22
+            ],
+            [
+                221,
+                535
+            ]
+        ]
+    }
+}
